@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<StiSerializer application="StiReport" type="Java" version="1.2">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" isKey="true" type="Dictionary">
+    <BusinessObjects count="0" isList="true"/>
+    <Databases count="0" isList="true"/>
+    <DataSources count="0" isList="true"/>
+    <Relations count="0" isList="true"/>
+    <Report isRef="0"/>
+    <Resources count="0" isList="true"/>
+    <Variables count="0" isList="true"/>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings count="0" isList="true"/>
+  <IsSubmit>False</IsSubmit>
+  <JsonReport>False</JsonReport>
+  <MetaTags count="0" isList="true"/>
+  <Pages count="1" isList="true">
+    <Page1 Ref="2" isKey="true" type="Page">
+      <Border>None;Black;2.0;Solid;False;4.0;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components count="1" isList="true">
+        <GroupHeaderBand1 Ref="3" isKey="true" type="GroupHeaderBand">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,21,5.4</ClientRectangle>
+          <Components count="1" isList="true">
+            <Text1 Ref="4" isKey="true" type="Text">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6,0.2,7.2,1.6</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Arial,20</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="2"/>
+              <Parent isRef="3"/>
+              <Text>Commercial Invoice&#13;
+         商业发票</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+            </Text1>
+          </Components>
+          <Condition>Com
+</Condition>
+          <Conditions count="0" isList="true"/>
+          <IsSelected>True</IsSelected>
+          <Name>GroupHeaderBand1</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+        </GroupHeaderBand1>
+      </Components>
+      <Conditions count="0" isList="true"/>
+      <Guid>1c2eb9b794d44cf7b89ad91516b9ffd8</Guid>
+      <Margins>0,0,0,0</Margins>
+      <MirrorMargins>False</MirrorMargins>
+      <Name>Page1</Name>
+      <Page isRef="2"/>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0"/>
+      <Watermark Ref="5" isKey="true" type="Stimulsoft.Report.Components.StiWatermark">
+        <EnabledExpression/>
+        <Font>Arial,100</Font>
+        <ImageHyperlink/>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="6" isKey="true" type="Stimulsoft.Report.Print.StiPrinterSettings"/>
+  <ReferencedAssemblies count="8" isList="true">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <RefreshTime>0</RefreshTime>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>01/29/2021 04:03:39 PM</ReportChanged>
+  <ReportCreated>01/20/2021 04:02:47 PM</ReportCreated>
+  <ReportFile>Report.mrt</ReportFile>
+  <ReportGuid>c3b876f10cc64a6bbe075cb23115df3f</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportResources count="0" isList="true"/>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.2.2 from 17 October 2019, Java</ReportVersion>
+  <RetrieveOnlyUsedData>False</RetrieveOnlyUsedData>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles count="0" isList="true"/>
+</StiSerializer>
