@@ -26,6 +26,7 @@ public class IndexController {
     private final String reportPath = "G:/java/apl-stimulsoft-report-java/reports/";
     //private final String savePath = "/Volumes/data/dev/rust/rust-study/apl-demo/webdesigner/reports/";
 
+
     @RequestMapping("/webdesigner")
     public String webdesigner(HttpServletRequest request){
         StiLicense.setKey("ff");
